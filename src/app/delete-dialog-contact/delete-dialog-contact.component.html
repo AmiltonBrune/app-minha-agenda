@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>Deletar Contato</h1>
+<div mat-dialog-content>Tem certeza que quer delete esse contato?</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Não</button>
+  <button
+    [disabled]="loading"
+    mat-button
+    (click)="confirmDelete()"
+    cdkFocusInitial
+  >
+    <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span
+    >Sim
+  </button>
+</div>

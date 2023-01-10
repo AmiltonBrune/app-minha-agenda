@@ -1,0 +1,17 @@
+.form-element {
+  width: 500px;
+}
+
+.add-contact-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.add-containet-button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
